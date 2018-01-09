@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" 
+          type="text/stylesheet" 
+          href="./CSS/numGuess.css"/>
+    <script type="text/javascript" src="./JS/numGuess.js"></script>
+</head>
+<body onload="init()">
+    <h1>Number Guesser</h1>
+    <form action="">
+        <div id="output">
+            Guess the number I am thinking of between 1 and 100
+        </div>
+        <label for="guessTxt">Your Guess:</label>
+        <input type="text" id="guessTxt">
+        <button type="button" id="guessBtn" onclick="checkGuess()">
+            Check Guess
+        </button>
+        <button type="button" id="btnAgain" onclick="init()">Try again</button>
+    </form>
+</body>
+</html>
