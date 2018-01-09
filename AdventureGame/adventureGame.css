@@ -1,0 +1,20 @@
+body{
+    background-color: darkred;
+}
+p{
+    text-align:center;
+    font-size: 200%;
+}
+h1{
+    text-align: center;
+}
+a{
+    color:black;
+}
+img{
+    width: 35%;
+    padding: 50px;
+}
+h2{
+    text-align: center;
+}

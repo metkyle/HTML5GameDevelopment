@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>main page</title>
+        <link rel="stylesheet"
+              type="text/css"
+              href="./CSS/wordStory.css"
+        />
+
+        <script type="text/javascript"
+                 src="./JavaScript/wordStory.js">
+           
+        </script>
+    </head>
+    <body>
+        <h1>Word Story!</h1>
+        <form>
+            <fieldset>
+                <label for="boyName">Boy's Name</label>
+                <input type="text" id="boyName"/>
+                <label for="girlName">Girls's Name</label>
+                <input type="text" id="girlName"/>
+                <label for="geoForm">Geological Formation</label>
+                <input type="text" id="geoForm"/>
+                <label for="verbTxt">Verb</label>
+                <input type="text" id="verbTxt"/>
+                <label for="contTxt">Container</label>
+                <input type="text" id="contTxt"/>
+                <label for="liquidTxt">Liquid</label>
+                <input type="text" id="liquidTxt"/>
+                <label for="bodyPartTxt">Body Part</label>
+                <input type="text" id="bodyPartTxt"/>
+                <label for="ingVerbTxt">ing verb</label>
+                <input type="text" id="ingVerbTxt"/>
+                <button type="button" onclick="tellStory()">
+                    Tell Story
+                    
+                </button>
+            </fieldset>
+        </form>
+        <div id="output"> </div>
+    </body>
+    
+</html>
